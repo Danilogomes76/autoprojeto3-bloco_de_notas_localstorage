@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(46, 49, 49);
+    color: white;
+
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    text-transform: uppercase;
+}
+
+#notescontainer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(46, 49, 49);
+    flex-wrap: wrap;
+    justify-content: center;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px 5px;
+    border: 2em black;
+    grid-template-areas:
+        ". . ."
+        ". . ."
+        ". . ."; */
+    
+}
+
+.note, .noter{
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.txt{
+    background-color: rgb(224, 221, 48);
+    resize: both;
+    overflow: auto;
+    width: 208px;
+}
+
+textarea{
+    font-size: 12px;
+    overflow: hidden;
+}
+
+p{
+    margin-bottom:5px;
+}
+
+.titlenote{
+    background-color: rgb(46, 49, 49);
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.txt::placeholder{
+    font-size: 15px;
+    text-align: center;
+}
+
+.trocacor{
+    display: none;
+}
+
+.lixo{
+    width: 20px;
+}
+
+#notas{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(46, 49, 49);
+    flex-wrap: wrap;
+    justify-content: center;
+}
