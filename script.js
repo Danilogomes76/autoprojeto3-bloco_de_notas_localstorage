@@ -9,7 +9,6 @@ let notas = document.getElementById("notas")
 let criarnota = document.querySelectorAll("div.container button.but")[0]
 
 criarnota.addEventListener("click", criarnovanota)
-// Save sendo chamado toda vez que clica na tela
 window.addEventListener("click", save)
 
 let notasarray = []
@@ -62,8 +61,3 @@ function save (){
 //     let containernotas = JSON.parse(localStorage.getItem("notes"))
 //     notas.appendChild(containernotas)
 // }
-
-
-
-
-
