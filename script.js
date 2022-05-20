@@ -9,7 +9,7 @@ let notas = document.getElementById("notas")
 let criarnota = document.querySelectorAll("div.container button.but")[0]
 
 criarnota.addEventListener("click", criarnovanota)
-// Save chamado toda vez que clica na tela
+// Save sendo chamado toda vez que clica na tela
 window.addEventListener("click", save)
 
 let notasarray = []
